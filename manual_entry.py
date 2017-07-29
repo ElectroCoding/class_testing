@@ -19,7 +19,7 @@ emp2.pay = "60000"
 
 
 print(" ")
-
+print("THIS IS THE Employee ID  - " + str(id(emp1)))
 print(emp1.first + " " + emp1.last)
 print(emp1)
 print(dir(emp1))
@@ -29,6 +29,7 @@ print(" ")
 print(vars(emp1))
 
 print(" ")
+print("THIS IS THE Employee ID  - " + str(id(emp2)))
 print(emp2.first + " " + emp2.last)
 print(dir(emp2))
 print (" ")
