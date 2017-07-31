@@ -8,6 +8,14 @@ class Employee:
 emp1 = Employee()
 emp2 = Employee()
 
+print(emp1)
+print(dir(emp1))
+print (" ")
+print(emp1.__dict__)
+print(" ")
+print(vars(emp1))
+
+
 emp1.first = "john"
 emp1.last = "doe"
 emp1.pay = "50000"
