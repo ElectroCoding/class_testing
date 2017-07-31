@@ -5,6 +5,7 @@ class Employee:
         self.last1 = last
         self.pay1 = pay
         self.email = first + "." + last + "@company.com"
+        print(id(self))
 
     def fullname(self):
         "{} {}".format(self.first, self.last)
